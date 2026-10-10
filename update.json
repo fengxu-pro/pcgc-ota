@@ -1,10 +1,10 @@
 {
-  "versionCode": 11,
-  "versionName": "1.2.3",
+  "versionCode": 12,
+  "versionName": "1.2.4",
   "url": "https://github.com/fengxu-pro/pcgc-ota/raw/main/app-debug.apk",
-  "sha256": "c53a757c00401ca19c2f5511c24d29ae28c228e0f5092db306b40d4fbe1f584a",
-  "sizeBytes": 10835670,
+  "sha256": "1997a0de09ac9775c3b3da489006123cecc3df12189b2e75ced1cec74472d12a",
+  "sizeBytes": 10808390,
   "force": false,
-  "notes": "鹏城股参 v1.2.3：全市场扫描推荐（沪深主板全部A股，每日首次打开自动+点刷新手动）；真实日/周/月K线蜡烛图（前复权+MA5/MA10）；删除调试浮层；修复详情页白框；修复滚动误跳详情页",
+  "notes": "鹏城股参 v1.2.4：收紧个股详情页顶部绿色头部高度（状态栏安全区外不再额外加 padding，头部更紧凑）；v1.2.3 全部能力保留：全市场扫描推荐、真实日/周/月K线、滚动误跳修复",
   "publishedAt": "2026-10-10"
 }
