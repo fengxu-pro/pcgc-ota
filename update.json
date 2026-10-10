@@ -1,10 +1,10 @@
 {
-  "versionCode": 13,
-  "versionName": "1.2.5",
+  "versionCode": 14,
+  "versionName": "1.2.6",
   "url": "https://github.com/fengxu-pro/pcgc-ota/raw/main/app-debug.apk",
-  "sha256": "1a6c9f293a125b54239d812951182a434cb37cb93f639f367cdfdc20846e233d",
+  "sha256": "45fab20ec7b492034c7dab5d570b6e73a8ce37defe45b4b5e0490f0bd4190451",
   "sizeBytes": 10808462,
   "force": false,
-  "notes": "鹏城股参 v1.2.5：修复个股详情页顶部绿色区域（股票名称+价格那一行）在部分手机 WebView 下被钉死、不随滚动下移的问题（详情页内部滚动由 flex 列布局改为块级流式滚动，底部买/卖操作栏仍常驻）；其余能力（全市场扫描推荐、真实日/周/月K线、滚动误跳修复）保持不变",
+  "notes": "鹏城股参 v1.2.6：将自动升级清单源由 jsDelivr 切换为 GitHub 官方 raw 优先 + jsDelivr 兜底（多源取 versionCode 最高者），彻底解决 CDN 缓存滞后导致长期收不到更新的问题；继承 v1.2.5 的个股详情页顶部绿块滚动修复",
   "publishedAt": "2026-10-10"
 }
