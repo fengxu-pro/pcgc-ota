@@ -1,10 +1,10 @@
 {
-  "versionCode": 14,
-  "versionName": "1.2.6",
+  "versionCode": 15,
+  "versionName": "1.2.7",
   "url": "https://github.com/fengxu-pro/pcgc-ota/raw/main/app-debug.apk",
-  "sha256": "45fab20ec7b492034c7dab5d570b6e73a8ce37defe45b4b5e0490f0bd4190451",
-  "sizeBytes": 10808462,
+  "sha256": "742377e2c0141b64a500b20db00a3c980b5b22e11c8b5fe629ade03550b1a6d9",
+  "sizeBytes": 10808942,
   "force": false,
-  "notes": "鹏城股参 v1.2.6：将自动升级清单源由 jsDelivr 切换为 GitHub 官方 raw 优先 + jsDelivr 兜底（多源取 versionCode 最高者），彻底解决 CDN 缓存滞后导致长期收不到更新的问题；继承 v1.2.5 的个股详情页顶部绿块滚动修复",
+  "notes": "鹏城股参 v1.2.7：修复全市场扫描——原生由逐页拉全量(40页/2万只)改为仅拉前3页最活跃样本并按成交额取 Top(避免东财限流致整批为空、扫描失败)；加请求超时+Referer+备用过滤兜底；JS 侧将扫描结果持久化到 localStorage，重开 App/扫描失败时不再回落到演示列表，始终保留上次真实推荐",
   "publishedAt": "2026-10-10"
 }
