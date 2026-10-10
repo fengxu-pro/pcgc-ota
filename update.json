@@ -1,7 +1,7 @@
 {
   "versionCode": 11,
   "versionName": "1.2.3",
-  "url": "https://cdn.jsdelivr.net/gh/fengxu-pro/pcgc-ota@main/app-debug.apk",
+  "url": "https://github.com/fengxu-pro/pcgc-ota/raw/main/app-debug.apk",
   "sha256": "c53a757c00401ca19c2f5511c24d29ae28c228e0f5092db306b40d4fbe1f584a",
   "sizeBytes": 10835670,
   "force": false,
