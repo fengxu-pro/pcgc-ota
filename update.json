@@ -2,8 +2,8 @@
   "versionCode": 16,
   "versionName": "1.2.8",
   "url": "https://github.com/fengxu-pro/pcgc-ota/raw/main/app-debug.apk",
-  "sha256": "742377e2c0141b64a500b20db00a3c980b5b22e11c8b5fe629ade03550b1a6d9",
-  "sizeBytes": 10808942,
+  "sha256": "4a887b3aab73d5ba3c1f771227c506aff40c983779e7490f572c7884b306f1e8",
+  "sizeBytes": 10841633,
   "force": false,
   "notes": "鹏城股参 v1.2.8：彻底修复全市场扫描长期失败——原生扫描由依赖东财 push2 的 clist 接口（部分网络下被限流/拦截、返回空导致扫描失败）改为调用独立域名 datacenter-web.eastmoney.com 的当日交易快照报表（RPT_DMSK_TS_STOCKNEW），自带收盘价/涨跌幅/换手率/PE/主力净流入/综合评分(TOTALSCORE) 等字段；分页拉全市场并按代码筛选沪深主板(60/00开头)、剔除ST/退市，按综合评分取 Top 推荐。继承 v1.2.7：扫描结果持久化到 localStorage，重开 App 或扫描临时失败都不会回落到演示列表",
   "publishedAt": "2026-10-10"
