@@ -1,10 +1,10 @@
 {
-  "versionCode": 18,
-  "versionName": "1.2.10",
+  "versionCode": 19,
+  "versionName": "1.2.11",
   "url": "https://github.com/fengxu-pro/pcgc-ota/raw/main/app-debug.apk",
-  "sha256": "9dc21e586b666002c390a59e2df1e178fff9bacffbf102f4aa9c8b4263dbf94c",
-  "sizeBytes": 10877501,
+  "sha256": "a05b0f06569b42298e9d1ad2a195c0b1d55e706352c4ceb5f19eae36360b788c",
+  "sizeBytes": 10877645,
   "force": false,
-  "notes": "鹏城股参 v1.2.10：修复「手机检查更新永远显示已是最新、刷不出新版本」。根因是 v1.2.6 起的清单源仅 raw+jsDelivr 双源，在国内网络下 raw 不可达、jsDelivr(@main)缓存严重滞后，导致取不到更高版本。本次将清单源扩展为多个镜像（jsDelivr + ghfast.top/ghproxy.net/mirror.ghproxy.com 代理 raw + 官方 raw），UpdateRepository 取所有可达源中 versionCode 最高者，只要任一国内可达源返回最新即可更新。继承 v1.2.9 全部功能（详情页显式「›行情」按钮、个股搜索栏、自选持久化）。注：本次需手动覆盖安装一次 v1.2.10，之后自动更新恢复",
+  "notes": "鹏城股参 v1.2.11：优化推荐/自选卡片外层信息展示——在卡片 row2 新增「现价 ¥xx.xx」，与涨跌幅百分比并列显示（涨红跌绿），避免只展示百分比而看不到实时价格；综合分继续显示在 score 区域。轮询增量更新时同步刷新价格和涨跌颜色，无需重建 DOM。继承 v1.2.10 的多镜像 OTA 源配置，后续可自动更新。",
   "publishedAt": "2026-10-12"
 }
