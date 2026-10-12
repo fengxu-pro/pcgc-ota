@@ -1,10 +1,10 @@
 {
-  "versionCode": 17,
-  "versionName": "1.2.9",
+  "versionCode": 18,
+  "versionName": "1.2.10",
   "url": "https://github.com/fengxu-pro/pcgc-ota/raw/main/app-debug.apk",
-  "sha256": "e384220fa5a44cdddad9d750655d4ece1b5175629d501e855c467c92a4206398",
+  "sha256": "9dc21e586b666002c390a59e2df1e178fff9bacffbf102f4aa9c8b4263dbf94c",
   "sizeBytes": 10877501,
   "force": false,
-  "notes": "鹏城股参 v1.2.9：(1) 彻底修复列表滚动时『莫名其妙跳进个股详情页』——移除原先『双击进详情』的隐晦交互（移动端 WebView 易把轻触/慢滚后的合成 click 误判为双击），改为卡片上明确的「›行情」按钮显式进入详情页，单击卡片只展开/收起因子，并将滚动保护窗口由 450ms 调长至 600ms；(2) 新增个股搜索栏（自选页顶部），本地过滤沪深主板股票池(3046只)，点击结果即进入详情页，详情页「＋自选」可将搜索股加入自选（自选股现已持久化，跨会话保留)",
+  "notes": "鹏城股参 v1.2.10：修复「手机检查更新永远显示已是最新、刷不出新版本」。根因是 v1.2.6 起的清单源仅 raw+jsDelivr 双源，在国内网络下 raw 不可达、jsDelivr(@main)缓存严重滞后，导致取不到更高版本。本次将清单源扩展为多个镜像（jsDelivr + ghfast.top/ghproxy.net/mirror.ghproxy.com 代理 raw + 官方 raw），UpdateRepository 取所有可达源中 versionCode 最高者，只要任一国内可达源返回最新即可更新。继承 v1.2.9 全部功能（详情页显式「›行情」按钮、个股搜索栏、自选持久化）。注：本次需手动覆盖安装一次 v1.2.10，之后自动更新恢复",
   "publishedAt": "2026-10-12"
 }
