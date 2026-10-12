@@ -1,10 +1,10 @@
 {
-  "versionCode": 20,
-  "versionName": "1.2.12",
+  "versionCode": 21,
+  "versionName": "1.2.13",
   "url": "https://github.com/fengxu-pro/pcgc-ota/raw/main/app-debug.apk",
-  "sha256": "ec8fcf7ac20435bd67604627b8dc2c62bd7de62cae3ba07c8cd0457fa1713ac0",
-  "sizeBytes": 10877665,
+  "sha256": "ef20cd470f4ca326474a26452a817ba8b4e3ac8ce2aed09fec9887c554e23cc8",
+  "sizeBytes": 10887158,
   "force": false,
-  "notes": "鹏城股参 v1.2.12：修复前端 JS 报错「q is not defined」。原因：推荐列表轮询刷新价格(updateListQuotes)时引用未声明变量 q；已改为 QUOTES[s.code]。同时统一自选列表价格刷新逻辑，轮询增量更新时价格/涨跌颜色同步刷新，避免详情页受异常中断影响。继承 v1.2.11 的卡片外层现价+综合分展示。",
+  "notes": "小冯论股 v1.2.13：应用改名为「小冯论股」；全新手绘矢量自适应图标——深金渐变底、铜钱铸金锭元宝（中央凸起+双翘耳）、元宝正中「财」字印记，寓意招财进宝。新增 ic_launcher_background / ic_launcher_foreground / mipmap-anydpi-v26，minSdk 26 无需 PNG 密度目录，任意分辨率锐利无 AI 水印。通知/启动图标内外一致。继承 v1.2.12 的 JS 报错修复与卡片外层现价+综合分展示。",
   "publishedAt": "2026-10-12"
 }
