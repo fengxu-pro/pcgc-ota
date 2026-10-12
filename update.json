@@ -1,10 +1,10 @@
 {
-  "versionCode": 19,
-  "versionName": "1.2.11",
+  "versionCode": 20,
+  "versionName": "1.2.12",
   "url": "https://github.com/fengxu-pro/pcgc-ota/raw/main/app-debug.apk",
-  "sha256": "a05b0f06569b42298e9d1ad2a195c0b1d55e706352c4ceb5f19eae36360b788c",
-  "sizeBytes": 10877645,
+  "sha256": "ec8fcf7ac20435bd67604627b8dc2c62bd7de62cae3ba07c8cd0457fa1713ac0",
+  "sizeBytes": 10877665,
   "force": false,
-  "notes": "鹏城股参 v1.2.11：优化推荐/自选卡片外层信息展示——在卡片 row2 新增「现价 ¥xx.xx」，与涨跌幅百分比并列显示（涨红跌绿），避免只展示百分比而看不到实时价格；综合分继续显示在 score 区域。轮询增量更新时同步刷新价格和涨跌颜色，无需重建 DOM。继承 v1.2.10 的多镜像 OTA 源配置，后续可自动更新。",
+  "notes": "鹏城股参 v1.2.12：修复前端 JS 报错「q is not defined」。原因：推荐列表轮询刷新价格(updateListQuotes)时引用未声明变量 q；已改为 QUOTES[s.code]。同时统一自选列表价格刷新逻辑，轮询增量更新时价格/涨跌颜色同步刷新，避免详情页受异常中断影响。继承 v1.2.11 的卡片外层现价+综合分展示。",
   "publishedAt": "2026-10-12"
 }
