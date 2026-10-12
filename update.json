@@ -1,10 +1,10 @@
 {
-  "versionCode": 16,
-  "versionName": "1.2.8",
+  "versionCode": 17,
+  "versionName": "1.2.9",
   "url": "https://github.com/fengxu-pro/pcgc-ota/raw/main/app-debug.apk",
-  "sha256": "4a887b3aab73d5ba3c1f771227c506aff40c983779e7490f572c7884b306f1e8",
-  "sizeBytes": 10841633,
+  "sha256": "e384220fa5a44cdddad9d750655d4ece1b5175629d501e855c467c92a4206398",
+  "sizeBytes": 10877501,
   "force": false,
-  "notes": "鹏城股参 v1.2.8：彻底修复全市场扫描长期失败——原生扫描由依赖东财 push2 的 clist 接口（部分网络下被限流/拦截、返回空导致扫描失败）改为调用独立域名 datacenter-web.eastmoney.com 的当日交易快照报表（RPT_DMSK_TS_STOCKNEW），自带收盘价/涨跌幅/换手率/PE/主力净流入/综合评分(TOTALSCORE) 等字段；分页拉全市场并按代码筛选沪深主板(60/00开头)、剔除ST/退市，按综合评分取 Top 推荐。继承 v1.2.7：扫描结果持久化到 localStorage，重开 App 或扫描临时失败都不会回落到演示列表",
-  "publishedAt": "2026-10-10"
+  "notes": "鹏城股参 v1.2.9：(1) 彻底修复列表滚动时『莫名其妙跳进个股详情页』——移除原先『双击进详情』的隐晦交互（移动端 WebView 易把轻触/慢滚后的合成 click 误判为双击），改为卡片上明确的「›行情」按钮显式进入详情页，单击卡片只展开/收起因子，并将滚动保护窗口由 450ms 调长至 600ms；(2) 新增个股搜索栏（自选页顶部），本地过滤沪深主板股票池(3046只)，点击结果即进入详情页，详情页「＋自选」可将搜索股加入自选（自选股现已持久化，跨会话保留)",
+  "publishedAt": "2026-10-12"
 }
