@@ -1,10 +1,10 @@
 {
-  "versionCode": 23,
-  "versionName": "1.2.15",
+  "versionCode": 24,
+  "versionName": "1.2.16",
   "url": "https://github.com/fengxu-pro/pcgc-ota/raw/main/app-debug.apk",
-  "sha256": "2bbc1006740158e9d27aa0188a35818dbfcf36c0e73d6bbdec21220c68610b6a",
-  "sizeBytes": 10888886,
+  "sha256": "afe9034ea89298f69157dece58e9b8298ce76d3cdc3ae993f59d5372b67150bd",
+  "sizeBytes": 10890118,
   "force": false,
-  "notes": "小冯论股 v1.2.15：修复「点击扫描后误弹个股详情页」的问题。根因：返回详情页时只移除了 active 样式但没清空 detailCode，导致后续任意一次行情刷新（扫描后的全量刷新、每 30 秒轮询）都会把已关闭的详情页重新打开。修复：返回时清空 detailCode；refreshDetail 仅当详情页当前处于打开状态才原地刷新，绝不因行情更新而重新弹出。继承 v1.2.14 的分时线推荐与自选报价修复。",
-  "publishedAt": "2026-10-13"
+  "notes": "小冯论股 v1.2.16：新增「外盘对比」页签。接入东方财富外围市场实时行情——美股三大指数（道琼斯/纳斯达克/标普500）+ 港股（恒生指数/国企指数），与 A 股三大指数（上证/深成指/创业板指）最新实时并排对照，方便盘前/盘后看外围风向。外围指数与 A 股交易时段不同，盘中为各自最近成交，仅供风向参考。继承 v1.2.15 的扫描误弹详情页修复。",
+  "publishedAt": "2026-10-15"
 }
