@@ -1,10 +1,10 @@
 {
-  "versionCode": 33,
-  "versionName": "1.2.25",
+  "versionCode": 34,
+  "versionName": "1.2.26",
   "url": "https://github.com/fengxu-pro/pcgc-ota/raw/main/app-debug.apk",
-  "sha256": "5b7bd85297ca0f941c4079970221edf35b66d1a9dded4ad0cd0927eff8740a19",
-  "sizeBytes": 10916410,
+  "sha256": "e81ce12d21521a2a2232a266c9ee762532337c3e452ad035e9efcec2dbd4c8b8",
+  "sizeBytes": 10917346,
   "force": false,
-  "notes": "小冯论股 v1.2.25：修复「资讯页停更(显示10-09)」与「外盘对比空白」。资讯：原为写死静态演示数据，现新增 fetchNews 拉东方财富实时新闻列(标题/摘要/时间/媒体)，替换静态卡片，启动即加载、每30秒自动刷新、切到资讯页立即重拉，日期与更新时间动态化。外盘：原东财 push2 ulist 全球指数接口在本网络被限流返回空导致空白，现改用新浪 hq.sinajs.cn(带Referer)取美股三大指数+恒生/国企指数，按 DJIA/NDX/SPX/HSI/HSCEI 映射回显。",
-  "publishedAt": "2026-10-20"
+  "notes": "小冯论股 v1.2.26：详情页分时图新增「主力资金」副图（小紫线）。原生新增分钟级主力净流入拉取(东财 fflow/kline klt=1，f52=每分钟主力净流入，按 HH:MM 与分时对齐)；前端分时绘图区分为主图(价格/均价 70%)+副图(主力资金 30%)，紫柱=主力净流入、绿柱=主力净流出，全天统一刻度防缩放跳变；按住十字光标浮窗与提示条同步显示当时主力净流入(元/万/亿)。拉取失败时自动隐藏副图，不影响分时主图。",
+  "publishedAt": "2026-10-21"
 }
