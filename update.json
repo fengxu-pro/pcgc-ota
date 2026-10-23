@@ -1,10 +1,10 @@
 {
-  "versionCode": 37,
-  "versionName": "1.2.29",
+  "versionCode": 38,
+  "versionName": "1.2.30",
   "url": "https://github.com/fengxu-pro/pcgc-ota/raw/main/app-debug.apk",
-  "sha256": "25ebd9bd687706a3e73ea1298ce95e9938cdbb1061bd9a94acdce3d0cdf29415",
-  "sizeBytes": 10938018,
+  "sha256": "81bcc1d4ae805a401aacaf18aeef1c30436aa25031dca1c540c4f49dc199673f",
+  "sizeBytes": 10938690,
   "force": false,
-  "notes": "小冯论股 v1.2.29：新增「缩量股」页（底部 tab）。把全盘扫描 / 三把锁扫描筛选出的沪深主板标的，按成交量再筛一遍：两个子选项——「当前交易日 <5万手」与「上个交易日 <5万手」。成交量来自日K（当日=最近一根、上个交易日=前一根，单位手），三把锁扫描时顺手写入缓存、零额外请求，未被覆盖的标的在打开本页时按 15只/批并发补拉日K回填；阈值 SHRINK_THRESHOLD=50000 手（可在代码调整）。卡片复用个股样式，点击进详情、可加自选。仅供辅助参考，不构成投资建议。",
+  "notes": "小冯论股 v1.2.30：日/周/月 K 线新增价格表尺（右侧价格刻度 + 水平网格线）与昨收虚线参考，价格区间一目了然。仅供辅助参考，不构成投资建议。",
   "publishedAt": "2026-10-23"
 }
