@@ -1,10 +1,10 @@
 {
-  "versionCode": 38,
-  "versionName": "1.2.30",
+  "versionCode": 39,
+  "versionName": "1.2.31",
   "url": "https://github.com/fengxu-pro/pcgc-ota/raw/main/app-debug.apk",
-  "sha256": "81bcc1d4ae805a401aacaf18aeef1c30436aa25031dca1c540c4f49dc199673f",
-  "sizeBytes": 10938690,
+  "sha256": "fe4771cda5071cb2f6cbaf2bde18d35c03f1bbf1dac9c504ccbad6e1910897e3",
+  "sizeBytes": 10939166,
   "force": false,
-  "notes": "小冯论股 v1.2.30：日/周/月 K 线新增价格表尺（右侧价格刻度 + 水平网格线）与昨收虚线参考，价格区间一目了然。仅供辅助参考，不构成投资建议。",
-  "publishedAt": "2026-10-23"
+  "notes": "小冯论股 v1.2.31：「缩量股」页改为从全市场沪深主板 A 股（约 3000+ 只）中按成交量筛选，不再依赖全盘/三把锁扫描结果。逐只拉日K核对成交量，扫描过程带进度条；成交量<5万手（可改 SHRINK_THRESHOLD）即为缩量候选。仅供辅助参考，不构成投资建议。",
+  "publishedAt": "2026-10-26"
 }
